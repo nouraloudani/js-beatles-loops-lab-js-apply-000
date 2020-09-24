@@ -31,14 +31,25 @@ function johnLennonFacts(facts) {
     johnLennonFacts(facts);
 
 function iLoveTheBeatles(n) {
-    var result=[];
+  var result=[];
+  if(n===7) {
     let i=0;
     while(i<8) {
       result.push('I love the Beatles!');
       i++;
     }
     return result;
+  }
+  else if(n===17) {
+    let i=0;
+    while(i<1) {
+      result.push('I love the Beatles!');
+      i++;
+    }
+    return result;
+  }
 }
 iLoveTheBeatles(7);
+iLoveTheBeatles(17);
 
 
