@@ -39,4 +39,4 @@ function iLoveTheBeatles(n) {
     }
     return result;
 }
-iLoveTheBeatles(7)
+iLoveTheBeatles(7);
