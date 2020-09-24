@@ -11,8 +11,9 @@ const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo St
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 theBeatlesPlay(musicians, instruments);
 
-function johnLennonFacts() {
+function johnLennonFacts(facts) {
   var result=[];
+  let i=0
   while(i++) {
    Result.push(facts[i] + "!!!");
    }
@@ -25,4 +26,4 @@ function johnLennonFacts() {
       "He was a choir boy and boy scout",
       "He hated the sound of his own voice"
     ];
-    johnLennonFacts();
+    johnLennonFacts(facts);
