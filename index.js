@@ -38,15 +38,14 @@ function iLoveTheBeatles(n) {
       result.push('I love the Beatles!');
       i++;
     }
-    return result;
   }
   else if(n===17) {
     while(i<1) {
       result.push('I love the Beatles!');
       i++;
     }
-    return result;
   }
+  return result;
 }
 iLoveTheBeatles(7);
 iLoveTheBeatles(17);
