@@ -34,6 +34,6 @@ function iLoveTheBeatles(n) {
     var result=[];
     let i=0;
     while(i<8) {
-      result
+      result.push()
     }
     }
