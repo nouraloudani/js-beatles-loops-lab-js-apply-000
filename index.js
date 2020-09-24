@@ -15,11 +15,10 @@ function johnLennonFacts(facts) {
   var result=[];
   let i=0
   while(i<facts.length) {
-    let n = 0
     result.push(facts[i] + "!!!");
     i++
   }
-  console.log(n)
+  
   return result;
 }
 
