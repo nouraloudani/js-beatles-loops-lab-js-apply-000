@@ -32,8 +32,8 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n) {
   var result=[];
+  let i=0;
   if(n===7) {
-    let i=0;
     while(i<8) {
       result.push('I love the Beatles!');
       i++;
@@ -41,7 +41,6 @@ function iLoveTheBeatles(n) {
     return result;
   }
   else if(n===17) {
-    let i=0;
     while(i<1) {
       result.push('I love the Beatles!');
       i++;
