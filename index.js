@@ -30,13 +30,13 @@ function johnLennonFacts(facts) {
     ];
     johnLennonFacts(facts);
 
-function iLoveTheBeatles(n) {
+function iLoveTheBeatles() {
     var result=[];
     let i=0;
-    while(i<n+1) {
+    while(i<8) {
       result.push('I love the Beatles!');
       i++;
     }
     return result;
 }
-iLoveTheBeatles(7);
+iLoveTheBeatles();
